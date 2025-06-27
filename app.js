@@ -26,33 +26,20 @@ document.addEventListener("DOMContentLoaded", () => {
     link.addEventListener("click", e => {
       e.preventDefault();
       const resumeLink = document.createElement("a");
-      resumeLink.href = "Keshav_Resume.pdf";
+      resumeLink.href = "Resume.pdf";
       resumeLink.download = "Keshav_Resume.pdf";
       document.body.appendChild(resumeLink);
       resumeLink.click();
       document.body.removeChild(resumeLink);
+      });
     });
   });
 
-  // ✅ Lazy load videos after DOM is ready
-  const videoMap = [
-    { id: "heroSkillVid", src: "videos/2.mp4" },
-    { id: "projectVideo1", src: "videos/IMP.mp4" },
-    { id: "projectVideo2", src: "videos/Project2.mp4" },
-    { id: "projectVideo3", src: "videos/Project3.mp4" },
-    { id: "aboutGlobeVid", src: "videos/glob.mp4" }
-  ];
+  document.addEventListener("DOMContentLoaded", () => {
+  const connectBtn = document.getElementById("connectBtn");
 
-  videoMap.forEach(({ id, src }) => {
-    const video = document.getElementById(id);
-    if (video) {
-      const source = document.createElement("source");
-      source.src = src;
-      source.type = "video/mp4";
-      video.appendChild(source);
-      console.log(`Loaded video: ${id} -> ${src}`);
-    } else {
-      console.warn(`Video element with id '${id}' not found`);
-    }
+  connectBtn?.addEventListener("click", () => {
+    window.open("https://www.linkedin.com/in/keshav-kumar-3649812b5/", "_blank");
   });
 });
+
