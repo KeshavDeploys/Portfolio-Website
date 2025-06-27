@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
     { id: "heroSkillVid", src: "videos/2.mp4" },
     { id: "projectVideo1", src: "videos/IMP.mp4" },
     { id: "projectVideo2", src: "videos/Project2.mp4" },
-    { id: "projectVideo3", src: "videos/Project3.mp4" }
-    { id: "aboutGlobeVid", src: "videos/glob.mp4" },
+    { id: "projectVideo3", src: "videos/Project3.mp4" },
+    { id: "aboutGlobeVid", src: "videos/glob.mp4" }
   ];
 
   videoMap.forEach(({ id, src }) => {
