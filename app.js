@@ -43,13 +43,16 @@ document.addEventListener("DOMContentLoaded", () => {
     { id: "aboutGlobeVid", src: "videos/glob.mp4" }
   ];
 
-  videoMap.forEach(({ id, src }) => {
-    const video = document.getElementById(id);
-    if (video) {
-      const source = document.createElement("source");
-      source.src = src;
-      source.type = "video/mp4";
-      video.appendChild(source);
-    }
-  });
+ videoMap.forEach(({ id, src }) => {
+  const video = document.getElementById(id);
+  if (video) {
+    const source = document.createElement("source");
+    source.src = src;
+    source.type = "video/mp4";
+    video.appendChild(source);
+    console.log(`Loaded video: ${id} -> ${src}`);
+  } else {
+    console.warn(`Video element with id '${id}' not found`);
+  }
 });
+
