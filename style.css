@@ -1286,3 +1286,22 @@ header ul a:hover {
     }
 
 }
+
+
+
+/* TEMP FIX FOR VIDEO VISIBILITY */
+video {
+  min-height: 200px;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.project-vidbox video,
+.card video {
+  opacity: 1 !important;
+  filter: none !important;
+}
