@@ -1410,7 +1410,8 @@ header ul a:hover {
 
 }
 
-.project-button{
-    text-decoration: none;
+a .project-button {
+  text-decoration: none !important;
+  color: white;
 }
 
