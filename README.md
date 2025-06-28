@@ -23,21 +23,21 @@ Welcome to my **personal developer portfolio**, where I showcase my cloud projec
 - **GitHub Pages** – for deployment
 ---
 
-🎯 Features
-🎥 Background video effects (galaxy + blackhole)
-📱 Fully responsive (optimized for 480px and up)
-🧩 Modular sections: Hero, About, Skills, Projects, Contact
-📬 Contact form (Web3Forms)
-🧠 Cloud branding, animation, and interactive design
-🔗 GitHub repo buttons for each project
+🎯 Features<br />
+🎥 Background video effects (galaxy + blackhole)<br />
+📱 Fully responsive (optimized for 480px and up)<br />
+🧩 Modular sections: Hero, About, Skills, Projects, Contact<br />
+📬 Contact form (Web3Forms)<br />
+🧠 Cloud branding, animation, and interactive design<br />
+🔗 GitHub repo buttons for each project<br />
 
-📬 Contact Me
-Feel free to connect or collaborate:
-LinkedIn
-GitHub
-Instagram
+📬 Contact Me<br />
+Feel free to connect or collaborate:<br />
+LinkedIn<br />
+GitHub<br />
+Instagram<br />
 
-📝 License
-This project is open source and free to use — feel free to fork, reference, or build on top of it!
-
-Let me know if you’d like to add badges (like GitHub stars, last commit, etc.) or dark mode screenshots!
+📝 License<br />
+This project is open source and free to use — feel free to fork, reference, or build on top of it!<br />
+<br />
+Let me know if you’d like to add badges (like GitHub stars, last commit, etc.) or dark mode screenshots!<br />
