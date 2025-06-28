@@ -811,7 +811,7 @@ header ul a:hover {
 
 @keyframes autoDisplayAnimation {
     from {
-        filter: blur(10px);
+        filter: blur(90px);
         transform: translateY(-500px) scale(0);
     }
 
@@ -1177,11 +1177,6 @@ header ul a:hover {
 
 @media screen and (max-width: 480px) {
 
-    .hero .skills-video-box {
-        display: none;
-
-    }
-
     .blackhole-box {
         overflow: hidden;
     }
@@ -1203,6 +1198,7 @@ header ul a:hover {
 
     .hero {
         scale: 0.9;
+        margin-top: -0.2rem;
     }
 
     .hero-info {
@@ -1223,7 +1219,7 @@ header ul a:hover {
     }
 
     .info-section{
-        margin-top: -10px;
+        margin-top: -1rem;
         margin-bottom: -12rem;
     }
 
@@ -1241,6 +1237,10 @@ header ul a:hover {
         font-size: 5px;
     }
 
+    .my-project{
+        gap: 4%;
+    }
+
     .project-card {
         height: 50%;
     }
@@ -1253,15 +1253,23 @@ header ul a:hover {
         margin-left: -80px;
     }
 
+    .my-project{
+        margin-bottom: 12rem;
+    }
     .skills-box {
-        height: 130vh;
+        height: 100vh;
         margin-right: 30px;
-        margin-bottom: -120px;
-        margin-top: -50px;
+        margin-bottom: -100px;
+        margin-top: -30px;
     }
 
     .slider {
         bottom: 0%;
+    }
+
+    .contact-container{
+        margin-top: -10rem;
+        margin-bottom: -0.1rem;
     }
 
     .footer {
@@ -1292,8 +1300,7 @@ header ul a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 4rem 0;
-  gap: 3rem;
+  margin: 2rem 0;
 }
 
 /* Project Image Container */
@@ -1320,6 +1327,21 @@ header ul a:hover {
 .project-info p {
   text-align: left;
 }
+
+.project-button {
+  display: block;
+  margin: 1rem auto 0 auto; /* top 1rem, auto horizontal, 0 bottom */
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid #ffffff80;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Clash Display', sans-serif;
+  font-size: 1rem;
+  transition: background 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
 
 #skills{
     margin-top: 8rem;
@@ -1364,12 +1386,18 @@ header ul a:hover {
 
   .project-info h1,
   .project-info p {
+    text-align: left;
+  }
+
+    .project-info {
     text-align: center;
   }
+
+  .project-button {
+    display: inline-block;
+    margin: 1rem auto 0 auto; /* top, horizontal center, bottom */
+  }
 }
-
-
-
 
 @media screen and (max-width: 1200px){
     body{
