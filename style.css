@@ -669,7 +669,7 @@ header ul a:hover {
     font-weight: 500;
     color: black;
     border-radius: 50px;
-    background-color: #F5F0CD;
+    background-color: #d8ded7;
 
 }
 
@@ -677,7 +677,7 @@ header ul a:hover {
     height: 140px;
     padding-top: 15px;
     border-radius: 20px;
-    background-color: #F5F0CD;
+    background-color: #d0d9ce;
 }
 
 .contact-inputs:focus {
